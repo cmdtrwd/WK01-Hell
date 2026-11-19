@@ -16,6 +16,17 @@ header {
                 /* r stands for root */
                 font-size: 1.2rem;
                 padding: 0 8px;
+
+                a{
+                    &:link{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    &:visited
+                    {                        
+                        color: black;
+                    }
+                }
             }
         }
     }
