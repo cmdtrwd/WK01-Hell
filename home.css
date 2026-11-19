@@ -43,7 +43,7 @@ header{
                 font-size: 1.3rem;                
             }
             .primary-btn{
-                background-color: yellow;
+                background-color: rgb(245, 245, 82);
                 width: 200px;
                 padding: 8px;
                 border-radius: 8px;
@@ -66,7 +66,7 @@ header{
     .box{
         flex-grow: 1;
         height: 200px;
-        background-color: rgb(132, 235, 199);
+        background-color: rgb(245, 245, 82,1);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -76,5 +76,8 @@ header{
     }
     .large-box{
         flex-grow: 2;
+        opacity: 1;
+        background-color: rgb(245, 245, 82,0.2);
+        color: rgb(40, 40, 40);
     }
 }
