@@ -2,6 +2,7 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
+    font-size: 10px;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
             li {
                 display: inline-block;
                 /* r stands for root */
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 padding: 0 8px;
 
                 a{
@@ -98,11 +99,11 @@ header {
         justify-content: center;
         align-items: center;
         border-radius: 16px 0px 16px 0px;
-        box-shadow: -5px 5px 0 rgba(76, 40, 187, 0.4),
+        /* box-shadow: -5px 5px 0 rgba(76, 40, 187, 0.4),
             -10px 10px 0 rgba(76, 40, 187, 0.3),
             -15px 15px 0 rgba(76, 40, 187, 0.2),
             -20px 20px 0 rgba(76, 40, 187, 0.1),
-            -25px 25px 0 rgba(76, 40, 187, 0.05);
+            -25px 25px 0 rgba(76, 40, 187, 0.05); */
 
         h1 {
             font-size: 3rem;
@@ -122,10 +123,21 @@ header {
 }
 
 .gradient-container {
-    width: 100%;
+    box-sizing: border-box;
+    padding: 100px;
+    width: 800px;
     height: 400px;
     background: #2A7B9B;
     background: linear-gradient(159deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 70%, rgba(237, 221, 83, 1) 100%);
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    .card{
+        display:flex;
+        justify-content: center;
+    }
 }
 
 footer {
