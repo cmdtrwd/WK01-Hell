@@ -168,6 +168,27 @@ header {
     }
 }
 
+#hero{
+    position:relative;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    height: 100vh;
+    box-sizing: border-box;
+    article{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 300px;
+        background-color: orangered;        
+        h1{
+            font-size: 2rem;
+            color: white;
+            padding: 16px;
+        }
+    }
+}
+
 footer {
     width: 100%;
     padding: 24px 16px;
