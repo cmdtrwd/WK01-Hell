@@ -10,6 +10,7 @@ header {
         position: fixed;        
         background-color: white;
         width: 100%;
+        z-index: 10;
         ul {
             text-align: right;
             list-style: none;
@@ -219,6 +220,16 @@ header {
         object-fit: cover;
         z-index: 0;
         opacity: 0.4;
+    }
+}
+
+#video{
+    width: 100%;
+    height: 100vh;
+    video{
+        width: 100%;
+        height:100%;
+        object-fit: cover;
     }
 }
 
