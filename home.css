@@ -143,6 +143,12 @@ header {
         flex-grow: 1;
         align-items: center;
         flex-direction: column;
+        #super-small{
+            font-size: 0.1rem;
+        }
+        .small{
+            font-size: 1rem;
+        }
         h1{
             font-size: 3rem;
         }
