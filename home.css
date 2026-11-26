@@ -177,6 +177,7 @@ header {
     box-sizing: border-box;
     article{
         position: absolute;
+        z-index: 5;
         top: 16px;
         right: 16px;
         width: 300px;
@@ -186,6 +187,16 @@ header {
             color: white;
             padding: 16px;
         }
+    }
+    .circle-pom-pom{
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        background-color: rgb(115, 255, 0);
+        top: 32px;
+        right: 250px;
+        border-radius: 50%;
+        z-index: 1;
     }
 }
 
