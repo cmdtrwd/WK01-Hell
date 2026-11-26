@@ -142,9 +142,23 @@ header {
         border: 1px solid rgb(255, 89, 0);
         flex-grow: 1;
         align-items: center;
+        flex-direction: column;
         h1{
             font-size: 3rem;
         }
+        &:first-child{
+            /* background-color: rgb(255, 89, 0); */
+        }      
+        &:last-child{
+            /* background-color: rgb(249, 246, 42); */
+        }  
+        &:nth-child(2n+1){
+            background-color: rgb(42, 242, 42);
+        }
+        p::first-letter{
+            font-weight: bold;
+            font-size: 2rem;
+        }        
     }
 }
 
